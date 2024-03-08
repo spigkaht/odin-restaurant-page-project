@@ -10,7 +10,7 @@ const createMenuPage = () => {
   divPara1.className = "para";
 
   divTitle.textContent = "Menu";
-  divPara1.textContent = `
+  divPara1.innerHTML = `
   Fishsticks <br>
   Processed fish shaped into tubes and deep fried <br>
   $4.95 <br>

@@ -11,14 +11,14 @@ const createContactPage = () => {
 
   divTitle.textContent = "Contact";
   divPara1.innerHTML = `
-  Sausage Fest
-  
-  101 Main St,
-  Pakenham 3810
-
-  0359411234
-
-  info@sausagefest.com.au
+  Sausage Fest <br>
+  <br>
+  101 Main St, <br>
+  Pakenham 3810 <br>
+  <br>
+  0359411234 <br>
+  <br>
+  info@sausagefest.com.au <br>
   `;
 
   divContent.appendChild(divTitle);
