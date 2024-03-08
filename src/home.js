@@ -1,6 +1,8 @@
 const createHomePage = () => {
   const divContent = document.querySelector('#content');
   
+  divContent.innerHTML = "";
+
   const divTitle = document.createElement('div');
   const divPara1 = document.createElement('div');
   const divPara2 = document.createElement('div');
