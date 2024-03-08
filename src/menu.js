@@ -10,18 +10,18 @@ const createMenuPage = () => {
   divPara1.className = "para";
 
   divTitle.textContent = "Menu";
-  divPara1.innerHTML = `
-  Fishsticks
-  Processed fish shaped into tubes and deep fried
-  $4.95
+  divPara1.textContent = `
+  Fishsticks <br>
+  Processed fish shaped into tubes and deep fried <br>
+  $4.95 <br>
   
-  Empanadas
-  Pastry filled with meat and vegetables
-  $6.95
+  Empanadas <br>
+  Pastry filled with meat and vegetables <br>
+  $6.95 <br>
 
-  Steak Diane
-  Who even knows.. It's steak and a sauce!
-  $22.50
+  Steak Diane <br>
+  Who even knows.. It's steak and a sauce! <br>
+  $22.50 <br>
   `;
 
   divContent.appendChild(divTitle);
