@@ -5,6 +5,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
+    home: './src/home.js',
     menu: './src/menu.js',
     contact: './src/contact.js'
   },  
@@ -12,6 +13,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Odin Restaurant Page Project',
+      template: './src/index.html',
+      filename: './index.html'
     }),
   ],
   output: {

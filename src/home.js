@@ -1,4 +1,4 @@
-const createMenuPage = () => {
+const createHomePage = () => {
   const divContent = document.querySelector('#content');
   
   const divTitle = document.createElement('div');
@@ -22,4 +22,4 @@ const createMenuPage = () => {
   divContent.appendChild(divPara3);
 };
 
-export { createMenuPage };
+export { createHomePage };
