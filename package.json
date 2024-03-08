@@ -1,0 +1,28 @@
+{
+  "name": "odin-restaurant-page-project",
+  "version": "1.0.0",
+  "description": "Odin Restaurant Page Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spigkaht/odin-restaurant-page-project.git"
+  },
+  "author": "Benjamin Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spigkaht/odin-restaurant-page-project/issues"
+  },
+  "homepage": "https://github.com/spigkaht/odin-restaurant-page-project#readme",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
